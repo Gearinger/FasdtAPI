@@ -1,0 +1,12 @@
+2020-08-16 23:48:56,712 - logger - WARNING - ÷¥––sql ß∞‹£°
+2020-08-16 23:52:10,128 - logger - WARNING - ÷¥––sql ß∞‹£°
+2020-08-16 23:54:20,109 - logger - WARNING - ÷¥––sql ß∞‹£°
+2020-08-16 23:55:03,924 - logger - WARNING - ÷¥––sql ß∞‹£°
+2020-08-16 23:55:38,482 - logger - WARNING - ÷¥––sql ß∞‹£°
+2020-08-16 23:57:11,616 - logger - WARNING - ÷¥––sql ß∞‹£°[insert into USER (NAME) values (123)]
+2020-08-16 23:59:03,268 - logger - WARNING - ÷¥––sql ß∞‹£°[insert into USER (NAME) values (123)]
+2020-08-16 23:59:30,741 - logger - WARNING - ÷¥––sql ß∞‹£°[insert into USER (NAME) values (123)]
+2020-08-17 00:00:08,953 - logger - WARNING - ÷¥––sql ß∞‹£°[insert into USER (NAME) values (123)]
+2020-08-17 00:00:15,299 - logger - WARNING - ÷¥––sql ß∞‹£°[insert into USER (NAME) values (123)]
+2020-08-17 00:02:29,341 - logger - WARNING - ÷¥––sql ß∞‹£°[insert into USER (NAME) values (123)]
+2020-08-17 00:16:41,428 - logger - WARNING - ÷¥––sql ß∞‹£°[insert into USER (NAME, KEY) values (123,dea2fcac-dfdb-11)]
