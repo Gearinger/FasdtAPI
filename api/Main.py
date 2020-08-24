@@ -1,11 +1,12 @@
 import uvicorn
 from fastapi import FastAPI
-import v1
+from api import v1
 
 app = FastAPI(
     title="GearAPI",
     version="1.0",
 )
+
 
 app.include_router(
     v1.router,

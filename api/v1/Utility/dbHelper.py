@@ -1,5 +1,5 @@
 import sqlite3 as db
-from logger import logger as logger
+from api.v1.Utility.logger import logger as logger
 
 db_file = "systemdb"
 
@@ -27,6 +27,15 @@ def exist_table(table_name: str):
     conn.close()
     return True
 
+
+def exist_row(table_name: str, column_name: str, column_value: str):
+    conn = db.connect(db_file)
+    cur = conn.cursor()
+    cur.execute(f"select count(1) from {table_name} WHERE {column_name}='{column_value}'")
+    result = cur.fetchall()[0][0]
+    cur.close()
+    conn.close()
+    return True if result > 0 else False
 
 
 if __name__ == '__main__':
